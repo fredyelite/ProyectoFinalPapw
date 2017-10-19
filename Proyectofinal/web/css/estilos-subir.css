@@ -1,0 +1,166 @@
+*, *:before,*:after{
+    box-sizing: border-box;
+}
+div img.logo-principal{
+  width: 100px;
+  height: 100px;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav ul li{
+  float: left;
+  margin-right: 20px;
+
+}
+nav#redes ul li{
+  float: left;
+  margin-right: 40px;
+
+}
+ nav#navegacion{
+  background: black;
+  height: 85px;
+  padding: 10px 0 20px 0;
+}
+nav#redes{
+ background: black;
+ height: 85px;
+ padding: 10px 0 20px 75px;
+}
+
+
+
+nav ul li a {
+  color: white;
+}
+div.contenedor{
+  background: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  margin-top: 20px;
+}
+div.contenedor2{
+  background: url(../img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+
+}
+
+body{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: verdana, geneva,serif;
+}
+div img.icono-busqueda{
+  width: 30px;
+  height: 30px;
+  margin-left: 16%;
+}
+div input.barra {
+
+  float: right;
+  margin-right: 600px;
+}
+
+
+/*navegacion*/
+.navegacion{
+  background-color: #db008d;
+
+}
+nav{
+  width: 1200px;
+
+  margin: 0 auto;
+  position: relative;
+}
+nav ul{
+  list-style: none;
+}
+nav > ul > li{
+float: left;
+}
+nav ul::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+nav ul li a{
+  display: inline-block;
+  width: 200px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+
+}
+nav ul li a:hover{
+  background-color: #00b8e5;
+}
+h2{
+  margin-left: 28%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+/*      registro         */
+
+
+div img.imagen-usuario{
+  width: 180px;
+  background-color: white;
+  margin-left:140px;
+  border-radius: 15px;
+}
+
+input.boton {
+margin-left: 150px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+
+}
+
+.boton:hover {
+
+    background-color: #17202A;
+    color: white;
+}
+
+
+div img.imagen-video{
+margin-left: 150px;
+margin-top: 10px;
+width: 200px;
+border-radius: 15px;
+
+}
+
+div.formularios{
+margin-top: 30px;
+  background-color: #1E8449;
+  width: 500px;
+  margin-left: 250px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+label{
+  color: white;
+margin-left: 40px;
+}
+textarea{
+  margin-left: 40px;
+}
